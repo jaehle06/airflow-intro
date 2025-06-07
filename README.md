@@ -41,7 +41,7 @@ It extracts fake user data from a public API, processes it, stores it as CSV, an
 ---
 
 ## 🔁 DAG Flow
-
+```
 create_table
      ↓
 is_api_available
@@ -51,3 +51,4 @@ extract_user
 process_user
      ↓
 store_user
+```
